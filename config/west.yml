@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: hunterwei
-      revision: nice_view_adapter_tps42
+      revision: tps42_wip
       import: app/west.yml
   self:
     path: config
