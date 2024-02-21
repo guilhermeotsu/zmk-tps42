@@ -14,6 +14,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: tps40_left
+    shield: tps40_left nice_view_adapter nice_view
   - board: nice_nano_v2
-    shield: tps40_right
+    shield: tps40_right nice_view_adapter nice_view
