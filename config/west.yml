@@ -4,10 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: crehmann
       url-base: https://github.com/crehmann
+    - name: hunterwei
+      url-base: https://github.com/hunterwei
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: hunterwei
+      revision: nice_view_adapter_tps42
       import: app/west.yml
   self:
     path: config
