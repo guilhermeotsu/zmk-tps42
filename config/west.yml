@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/hunterwei
   projects:
     - name: zmk
-      remote: hunterwei
-      revision: tps42_wip
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
