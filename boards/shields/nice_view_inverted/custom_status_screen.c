@@ -23,10 +23,9 @@ lv_obj_t *zmk_display_status_screen() {
     zmk_widget_status_init(&status_widget, screen);
     lv_obj_align(zmk_widget_status_obj(&status_widget), LV_ALIGN_TOP_LEFT, 0, 0);
     // Rotate the screen object 180 degree
+    lv_obj_set_style_transform_pivot_x(screen, 34, 0);
+    lv_obj_set_style_transform_pivot_y(screen, 80, 0);
     lv_obj_set_style_transform_angle(screen, 1800, 0);
-    // Re-position the pivot x, y of the rotated screen
-    lv_obj_set_style_transform_pivot_x(screen, -68, 0);
-    lv_obj_set_style_transform_pivot_y(screen, -160, 0);
 #endif
 
     return screen;
