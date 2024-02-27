@@ -45,7 +45,7 @@ struct wpm_status_state {
 };
 
 static void draw_top(lv_obj_t *widget, lv_color_t cbuf[], const struct status_state *state) {
-    lv_obj_t *canvas = lv_obj_get_child(widget, 0);
+    lv_obj_t *canvas = lv_obj_get_child(widget, 2);
 
     lv_draw_label_dsc_t label_dsc;
     init_label_dsc(&label_dsc, LVGL_FOREGROUND, &lv_font_montserrat_16, LV_TEXT_ALIGN_RIGHT);
@@ -168,7 +168,7 @@ static void draw_middle(lv_obj_t *widget, lv_color_t cbuf[], const struct status
 }
 
 static void draw_bottom(lv_obj_t *widget, lv_color_t cbuf[], const struct status_state *state) {
-    lv_obj_t *canvas = lv_obj_get_child(widget, 2);
+    lv_obj_t *canvas = lv_obj_get_child(widget, 0);
 
     lv_draw_rect_dsc_t rect_black_dsc;
     init_rect_dsc(&rect_black_dsc, LVGL_BACKGROUND);
