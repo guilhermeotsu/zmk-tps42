@@ -24,5 +24,5 @@ lv_obj_t *zmk_display_status_screen() {
     lv_obj_align(zmk_widget_status_obj(&status_widget), LV_ALIGN_TOP_LEFT, 0, 0);
 #endif
 
-    return lv_display_set_rotation(screen, LV_DISPLAY_ROTATION_180);
+    return lv_display_set_rotation(screen, LV_DISP_ROT_180);
 }
