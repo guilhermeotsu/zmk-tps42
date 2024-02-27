@@ -21,7 +21,7 @@ lv_obj_t *zmk_display_status_screen() {
 
 #if IS_ENABLED(CONFIG_NICE_VIEW_WIDGET_STATUS)
     zmk_widget_status_init(&status_widget, screen);
-    lv_obj_align(zmk_widget_status_obj(&status_widget), LV_ALIGN_BOTTOM_RIGHT, 0, 0);
+    lv_obj_align(zmk_widget_status_obj(&status_widget), LV_ALIGN_TOP_LEFT, 160, 68);
 #endif
 
     return screen;
