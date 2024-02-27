@@ -22,7 +22,7 @@ lv_obj_t *zmk_display_status_screen() {
 #if IS_ENABLED(CONFIG_NICE_VIEW_WIDGET_STATUS)
     zmk_widget_status_init(&status_widget, screen);
     lv_obj_align(zmk_widget_status_obj(&status_widget), LV_ALIGN_TOP_LEFT, 0, 0);
-    lv_display_set_rotation(screen, LV_DISPLAY_ROTATION_180);
+    lv_obj_set_style_transform_angle(screen, 1800, 0)
 #endif
 
     return screen;
