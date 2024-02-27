@@ -4,9 +4,9 @@ The nice!view is a low-power, high refresh rate display meant to replace I2C OLE
 
 This shield requires that an `&nice_view_spi` labeled SPI bus is provided with _at least_ MOSI, SCK, and CS pins defined.
 
-# nice!view inverted
+# nice!view flipped
 
-The nice!view inverted is just a version that turn the orientation of the display 180 degree for TPS42/36 keyboard that uses the same SHARP LCD display.
+The nice!view flipped is just a version that turn the orientation of the display 180 degree for TPS42/36 keyboard that uses the same SHARP LCD display.
 
 ## Disable custom widget
 
